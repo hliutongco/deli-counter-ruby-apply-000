@@ -29,6 +29,11 @@ def line(katz_deli)
   end
 end
 
+#The take_a_number method accepts the katz_deli and name arguments
+#It shovels the name into the katz_deli array
+#It then outputs a string that includes the name and line number through string interpolation
+#The line number (i.e. the last person in line) is calculated by taking the length of the katz_deli array
+
 def take_a_number(katz_deli, name)
   katz_deli << name
   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
