@@ -1,7 +1,7 @@
 katz_deli = []
 
 def line(katz_deli)
-  line_string = "The line is currently serving:"
+  line_string = "The line is currently:"
   if katz_deli == []
     puts "The line is currently empty."
   else
