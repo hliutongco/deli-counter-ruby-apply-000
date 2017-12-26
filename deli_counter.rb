@@ -2,7 +2,7 @@
 
 katz_deli = []
 
-#The line method outputs a string describing the current state of the line
+#The line method accepts the katz_deli argument and outputs a string describing the current state of the line
 
 def line(katz_deli)
 
@@ -38,6 +38,10 @@ def take_a_number(katz_deli, name)
   katz_deli << name
   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
+
+#The now_serving method accepts the katz_deli argument
+#If the katz_deli array is empty, it outputs "There is nobody waiting to be served!"
+
 
 def now_serving(katz_deli)
   if katz_deli == []
