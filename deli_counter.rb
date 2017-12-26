@@ -42,7 +42,7 @@ end
 #The now_serving method accepts the katz_deli argument
 #If the katz_deli array is empty, it outputs "There is nobody waiting to be served!"
 #Otherwise, it outputs a string that uses string interpolation to include the first element in the katz_deli array
-#It then uses the shift method to remove the first element from the aray
+#It then uses the shift method to remove the first element from the array
 
 def now_serving(katz_deli)
   if katz_deli == []
