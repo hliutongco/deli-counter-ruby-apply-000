@@ -16,12 +16,7 @@ def line(katz_deli)
   #During each iteration, we add a string to line_string containing the line number & name of each element
   #We calculate the line number by adding 1 to the index number
 
-  if katz_deli == []
-    puts "The line is currently empty."
-  else
-    katz_deli.each_with_index do |person, index|
-      line_string += " #{index+1}. #{person}"
-    end
+  katz_deli == [] ? puts "The line is currently empty." : katz_deli.each_with_index do |person, index| line_string += " #{index+1}. #{person}" end
 
     #Lastly, we output the newly modified line_string
 
